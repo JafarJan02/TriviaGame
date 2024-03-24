@@ -9,13 +9,22 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Yoo jvvhvjshivhfvdeufhiuv")
+        VStack(spacing: 40) {
+            VStack(spacing :20) {
+                Text("Trivia Game")
+                    .font(.title)
+                    .fontWeight(.heavy)
+                    .foregroundColor(Color("AccentColor"))
+                
+                Text("Are you ready to test out your trivia skills?")
+                    .foregroundColor(Color("AccentColor"))
+            }
+            PrimaryButton(text: "Let's Go!")
         }
-        .padding()
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .edgesIgnoringSafeArea(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+        .background(Color(red: 0.984313725490196, green: 0.9294117647058824, blue: 0.8470588235294118))
+        
     }
 }
 
