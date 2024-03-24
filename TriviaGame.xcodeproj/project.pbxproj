@@ -13,6 +13,7 @@
 		2B474A882BAFAE7400E61947 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B474A872BAFAE7400E61947 /* Preview Assets.xcassets */; };
 		2BD4590D2BAFF69C00794C2A /* PrimaryButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD4590C2BAFF69C00794C2A /* PrimaryButton.swift */; };
 		2BD459102BAFFB8F00794C2A /* Extansions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD4590F2BAFFB8F00794C2A /* Extansions.swift */; };
+		2BD459122BAFFE5000794C2A /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BD459112BAFFE5000794C2A /* QuestionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		2B474A872BAFAE7400E61947 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		2BD4590C2BAFF69C00794C2A /* PrimaryButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButton.swift; sourceTree = "<group>"; };
 		2BD4590F2BAFFB8F00794C2A /* Extansions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extansions.swift; sourceTree = "<group>"; };
+		2BD459112BAFFE5000794C2A /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				2B474A822BAFAE7300E61947 /* ContentView.swift */,
+				2BD459112BAFFE5000794C2A /* QuestionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -159,6 +162,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BD459122BAFFE5000794C2A /* QuestionView.swift in Sources */,
 				2BD4590D2BAFF69C00794C2A /* PrimaryButton.swift in Sources */,
 				2B474A832BAFAE7300E61947 /* ContentView.swift in Sources */,
 				2B474A812BAFAE7300E61947 /* TriviaGameApp.swift in Sources */,
