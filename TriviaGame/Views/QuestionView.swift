@@ -18,7 +18,14 @@ struct QuestionView: View {
                     .foregroundColor(Color("AccentColor"))
                     .fontWeight(.heavy)
                 
-                
+            }
+            
+            ProgressBar(progress: 40)
+            VStack(alignment: .leading, spacing: 20) {
+                Text("Which of the following ancient peoples was NOT classified as Hellenic (Greek)?")
+                    .font(.system(size: 20))
+                    .bold()
+                    .foregroundColor(.gray)
             }
         }
             .padding()
