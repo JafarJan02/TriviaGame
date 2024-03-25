@@ -10,6 +10,8 @@ import Foundation
 class TriviaManager: ObservableObject {
     private(set) var trivia: [Trivia.Result] = []
     @Published private(set) var length = 0
+    @Published private(set) var index = 0
+    @Published private(set) var reachedEnd = false
     
     init() {
         Task.init {
@@ -38,6 +40,15 @@ class TriviaManager: ObservableObject {
             }
         }catch{
             print("Error fetching trivia: \(error) ")
+        }
+    }
+    
+    func goToNextQuestion () {
+        if index + 1 < length {
+            index += 1
+            //Setting new question here...
+        }else{
+            reachedEnd = true
         }
     }
 }
