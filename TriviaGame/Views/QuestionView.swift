@@ -22,11 +22,17 @@ struct QuestionView: View {
             
             ProgressBar(progress: 40)
             VStack(alignment: .leading, spacing: 20) {
-                Text("Which of the following ancient peoples was NOT classified as Hellenic (Greek)?")
+                Text("The capital of the US State Ohio is the city of Chillicothe.")
                     .font(.system(size: 20))
                     .bold()
                     .foregroundColor(.gray)
+                
+                AnswerRow(answer: Answer(text: "false", isCorrect: true))
+                AnswerRow(answer: Answer(text: "true", isCorrect: false))
             }
+            
+            PrimaryButton(text: "Next")
+            Spacer()
         }
             .padding()
             .frame(maxWidth: .infinity, maxHeight: .infinity)
