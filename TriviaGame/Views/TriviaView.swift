@@ -22,7 +22,7 @@ struct TriviaView: View {
                 
                 Button {
                     Task.init {
-                        await triviaManager.fetchTrivia(
+                        await triviaManager.fetchTrivia()
                     }
                             } label: {
                                 PrimaryButton(text: "Play again")
