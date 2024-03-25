@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2B2D901C2BB0F6E900765DEB /* Answer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D901B2BB0F6E900765DEB /* Answer.swift */; };
 		2B2D901E2BB0F92700765DEB /* AnswerRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D901D2BB0F92700765DEB /* AnswerRow.swift */; };
+		2B2D90202BB1027700765DEB /* TriviaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B2D901F2BB1027700765DEB /* TriviaView.swift */; };
 		2B474A812BAFAE7300E61947 /* TriviaGameApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B474A802BAFAE7300E61947 /* TriviaGameApp.swift */; };
 		2B474A832BAFAE7300E61947 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B474A822BAFAE7300E61947 /* ContentView.swift */; };
 		2B474A852BAFAE7400E61947 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B474A842BAFAE7400E61947 /* Assets.xcassets */; };
@@ -22,6 +23,7 @@
 /* Begin PBXFileReference section */
 		2B2D901B2BB0F6E900765DEB /* Answer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Answer.swift; sourceTree = "<group>"; };
 		2B2D901D2BB0F92700765DEB /* AnswerRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerRow.swift; sourceTree = "<group>"; };
+		2B2D901F2BB1027700765DEB /* TriviaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaView.swift; sourceTree = "<group>"; };
 		2B474A7D2BAFAE7300E61947 /* TriviaGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TriviaGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2B474A802BAFAE7300E61947 /* TriviaGameApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaGameApp.swift; sourceTree = "<group>"; };
 		2B474A822BAFAE7300E61947 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -105,6 +107,7 @@
 			children = (
 				2B474A822BAFAE7300E61947 /* ContentView.swift */,
 				2BD459112BAFFE5000794C2A /* QuestionView.swift */,
+				2B2D901F2BB1027700765DEB /* TriviaView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -180,6 +183,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BD459122BAFFE5000794C2A /* QuestionView.swift in Sources */,
+				2B2D90202BB1027700765DEB /* TriviaView.swift in Sources */,
 				2BD4590D2BAFF69C00794C2A /* PrimaryButton.swift in Sources */,
 				2B2D901E2BB0F92700765DEB /* AnswerRow.swift in Sources */,
 				2B474A832BAFAE7300E61947 /* ContentView.swift in Sources */,
