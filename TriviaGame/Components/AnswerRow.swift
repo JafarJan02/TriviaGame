@@ -34,16 +34,18 @@ struct AnswerRow: View {
         }
         .padding()
         .frame(maxWidth: .infinity, alignment: .leading)
-        .foregroundColor(isSelected ? Color("AccentColor")
-                         : .gray)
+        .foregroundColor(triviaManager.answerSelected ? (isSelected ? Color("AccentColor"): .gray) : Color("AccentColor"))
         .background(Color.white)
         .cornerRadius(10)
         .shadow(color: isSelected ? (answer.isCorrect ? green : red) : Color.gray, radius: 5, x: 0.5, y: 0.5)
         .onTapGesture {
-            isSelected = true
+            if !triviaManager.answerSelected {
+                isSelected = true
+                triviaManager.selectAnswer(answer: answer)
+            }
         }
     }
-}
+                         }
 
 struct AnswerRow_Previews: PreviewProvider {
     static var previews: some View {
